@@ -9,8 +9,5 @@ export const DefaultButton = () => ({
   components: { Button },
   template: `<Button>Button Text</Button>`,
   props: {
-    type: 'primary'
   }
 });
-
-// export const Default = Template.bind({})

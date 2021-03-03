@@ -19,7 +19,6 @@ export default defineComponent<Props>({
     type: {
       type: String,
       default: 'primary'
-      // validator: (value: string) => ['primary'].includes(value)
     },
     disabled: {
       type: Boolean,

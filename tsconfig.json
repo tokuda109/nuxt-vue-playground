@@ -4,8 +4,7 @@
     "esModuleInterop": true,
     "lib": [
       "dom",
-      "esnext",
-      "esnext.asynciterable"
+      "esnext"
     ],
     "module": "esnext",
     "moduleResolution": "node",
@@ -27,6 +26,8 @@
     "./src/**/*.vue"
   ],
   "exclude": [
+    ".nuxt",
+    "dist",
     "node_modules"
   ]
 }
