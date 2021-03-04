@@ -9,13 +9,12 @@ import { NuxtError } from '@nuxt/types/app';
 import { defineComponent } from '@nuxtjs/composition-api';
 
 type Props = {
-  error: NuxtError
+  error: NuxtError;
 };
 
 export default defineComponent<Props>({
   setup() {
-    return {
-    };
+    return {};
   }
 });
 </script>

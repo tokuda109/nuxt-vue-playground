@@ -15,8 +15,7 @@ export default defineComponent<Props>({
     Button
   },
   setup() {
-    return {
-    };
+    return {};
   }
 });
 </script>

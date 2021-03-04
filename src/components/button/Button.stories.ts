@@ -7,7 +7,6 @@ export default {
 
 export const DefaultButton = () => ({
   components: { Button },
-  template: `<Button>Button Text</Button>`,
-  props: {
-  }
+  template: '<Button>Button Text</Button>',
+  props: {}
 });
