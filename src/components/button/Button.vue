@@ -25,12 +25,7 @@ export default defineComponent<Props>({
       default: false
     }
   },
-  computed: {
-    typeClass(): string {
-      return `-${this.type}`;
-    }
-  },
-  setup(props: Props, { emit }: SetupContext) {
+  setup(_: Props, { emit }: SetupContext) {
     const onClick = (event: MouseEvent): void => {
       (event.target as HTMLElement).blur();
 
@@ -40,6 +35,11 @@ export default defineComponent<Props>({
     return {
       onClick
     };
+  },
+  computed: {
+    typeClass(): string {
+      return `-${this.type}`;
+    }
   }
 });
 </script>
@@ -54,7 +54,7 @@ export default defineComponent<Props>({
   text-align: center;
   font-size: 14px;
   font-weight: bold;
-  color: rgba(0, 0, 0, .6);
+  color: rgba(0, 0, 0, 0.6);
   cursor: pointer;
 }
 </style>

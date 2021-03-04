@@ -5,7 +5,7 @@ import { CreateElement } from 'vue';
 type Level = 1 | 2 | 3 | 4 | 5 | 6;
 
 export type Props = {
-  level: Level
+  level: Level;
 };
 
 export default defineComponent<Props>({
@@ -15,7 +15,7 @@ export default defineComponent<Props>({
       required: true
     }
   },
-  setup(props: Props) {
+  setup(_: Props) {
     return {};
   },
   render(createElement: CreateElement) {

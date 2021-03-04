@@ -11,8 +11,7 @@ type Props = {};
 
 export default defineComponent<Props>({
   setup() {
-    return {
-    };
+    return {};
   }
 });
 </script>
