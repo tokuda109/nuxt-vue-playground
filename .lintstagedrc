@@ -5,6 +5,7 @@
   ],
   "*.vue": [
     "eslint --fix",
+    "stylelint --fix",
     "prettier --write"
   ]
 }
